@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgExam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f6ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff7ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgExam)"/>
+  <circle cx="400" cy="255" r="185" fill="#d6ecfb"/>
+  <circle cx="98" cy="90" r="10" fill="#f7c948"/>
+  <circle cx="706" cy="404" r="14" fill="#11a64a"/>
+  <circle cx="684" cy="92" r="8" fill="#226fbd"/>
+
+  <!-- calendar card -->
+  <rect x="230" y="140" width="300" height="260" rx="16" fill="#ffffff" stroke="#d6ecfb" stroke-width="4"/>
+  <rect x="230" y="140" width="300" height="56" rx="16" fill="#0d2a52"/>
+  <rect x="230" y="172" width="300" height="24" fill="#0d2a52"/>
+  <rect x="268" y="118" width="16" height="44" rx="8" fill="#226fbd"/>
+  <rect x="476" y="118" width="16" height="44" rx="8" fill="#226fbd"/>
+
+  <!-- grid dots -->
+  <g fill="#d6ecfb">
+    <circle cx="270" cy="230" r="10"/><circle cx="320" cy="230" r="10"/><circle cx="370" cy="230" r="10"/><circle cx="420" cy="230" r="10"/><circle cx="470" cy="230" r="10"/>
+    <circle cx="270" cy="270" r="10"/><circle cx="320" cy="270" r="10"/><circle cx="420" cy="270" r="10"/><circle cx="470" cy="270" r="10"/>
+    <circle cx="270" cy="310" r="10"/><circle cx="320" cy="310" r="10"/><circle cx="370" cy="310" r="10"/><circle cx="470" cy="310" r="10"/>
+    <circle cx="270" cy="350" r="10"/><circle cx="370" cy="350" r="10"/><circle cx="420" cy="350" r="10"/><circle cx="470" cy="350" r="10"/>
+  </g>
+  <!-- highlighted date with check -->
+  <circle cx="370" cy="270" r="16" fill="#f7c948"/>
+  <path d="M 362 270 l 6 7 l 12 -15" fill="none" stroke="#0d2a52" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="320" cy="350" r="16" fill="#11a64a"/>
+  <path d="M 312 350 l 6 7 l 12 -15" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- clock -->
+  <g transform="translate(555,320)">
+    <circle cx="0" cy="0" r="58" fill="#226fbd"/>
+    <circle cx="0" cy="0" r="46" fill="#ffffff"/>
+    <path d="M 0 0 L 0 -28" stroke="#0d2a52" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 0 0 L 20 8" stroke="#0d2a52" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="6" fill="#0d2a52"/>
+  </g>
+
+  <!-- pencil accent -->
+  <g transform="translate(190,360) rotate(-35)">
+    <rect x="0" y="0" width="120" height="24" rx="6" fill="#f7c948"/>
+    <path d="M 120 0 L 150 12 L 120 24 Z" fill="#0d2a52"/>
+    <rect x="-14" y="0" width="14" height="24" rx="4" fill="#e9f6ff"/>
+  </g>
+</svg>

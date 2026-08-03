@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgFaq" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f6ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff7ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgFaq)"/>
+  <circle cx="400" cy="255" r="185" fill="#d6ecfb"/>
+  <circle cx="98" cy="90" r="10" fill="#f7c948"/>
+  <circle cx="706" cy="404" r="14" fill="#11a64a"/>
+  <circle cx="684" cy="92" r="8" fill="#226fbd"/>
+
+  <!-- large question circle -->
+  <circle cx="360" cy="250" r="120" fill="#ffffff" stroke="#226fbd" stroke-width="10"/>
+  <text x="360" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="bold" text-anchor="middle" fill="#226fbd">?</text>
+
+  <!-- small bubble top right -->
+  <g>
+    <path d="M 470 120 h 130 a 18 18 0 0 1 18 18 v 58 a 18 18 0 0 1 -18 18 h -80 l -26 24 v -24 h -24 a 18 18 0 0 1 -18 -18 v -58 a 18 18 0 0 1 18 -18 z" fill="#f7c948"/>
+    <path d="M 500 158 l 8 9 l 16 -20" fill="none" stroke="#0d2a52" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- small bubble bottom right -->
+  <g>
+    <path d="M 500 330 h 140 a 18 18 0 0 1 18 18 v 58 a 18 18 0 0 1 -18 18 h -90 l -26 24 v -24 h -24 a 18 18 0 0 1 -18 -18 v -58 a 18 18 0 0 1 18 -18 z" fill="#11a64a"/>
+    <circle cx="540" cy="368" r="7" fill="#ffffff"/>
+    <circle cx="565" cy="368" r="7" fill="#ffffff"/>
+    <circle cx="590" cy="368" r="7" fill="#ffffff"/>
+  </g>
+
+  <!-- checklist accent -->
+  <g transform="translate(150,330)">
+    <rect x="0" y="0" width="150" height="110" rx="12" fill="#ffffff" stroke="#d6ecfb" stroke-width="4"/>
+    <rect x="18" y="20" width="18" height="18" rx="4" fill="#226fbd"/>
+    <path d="M 55 30 h 78" stroke="#d6ecfb" stroke-width="8" stroke-linecap="round"/>
+    <rect x="18" y="48" width="18" height="18" rx="4" fill="#11a64a"/>
+    <path d="M 55 58 h 60" stroke="#d6ecfb" stroke-width="8" stroke-linecap="round"/>
+    <rect x="18" y="76" width="18" height="18" rx="4" fill="#f7c948"/>
+    <path d="M 55 86 h 70" stroke="#d6ecfb" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

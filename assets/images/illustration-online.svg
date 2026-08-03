@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgOnline" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f6ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff7ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgOnline)"/>
+  <circle cx="400" cy="250" r="180" fill="#d6ecfb"/>
+  <circle cx="96" cy="86" r="10" fill="#f7c948"/>
+  <circle cx="708" cy="404" r="14" fill="#11a64a"/>
+  <circle cx="690" cy="86" r="8" fill="#226fbd"/>
+
+  <!-- wifi arcs -->
+  <g fill="none" stroke="#11a64a" stroke-width="10" stroke-linecap="round">
+    <path d="M 500 150 A 130 130 0 0 1 620 270"/>
+    <path d="M 520 190 A 80 80 0 0 1 600 270"/>
+  </g>
+  <circle cx="565" cy="278" r="9" fill="#11a64a"/>
+
+  <!-- laptop base -->
+  <path d="M 250 340 L 550 340 L 585 380 L 215 380 Z" fill="#0d2a52"/>
+  <rect x="255" y="345" width="290" height="8" rx="4" fill="#226fbd"/>
+
+  <!-- laptop screen -->
+  <rect x="260" y="140" width="280" height="200" rx="14" fill="#0d2a52"/>
+  <rect x="276" y="156" width="248" height="168" rx="8" fill="#226fbd"/>
+  <rect x="292" y="172" width="216" height="136" rx="6" fill="#ffffff"/>
+
+  <!-- face on screen -->
+  <circle cx="400" cy="230" r="46" fill="#e9f6ff"/>
+  <circle cx="384" cy="222" r="7" fill="#0d2a52"/>
+  <circle cx="416" cy="222" r="7" fill="#0d2a52"/>
+  <path d="M 378 248 Q 400 266 422 248" fill="none" stroke="#0d2a52" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- rec dot -->
+  <circle cx="308" cy="188" r="6" fill="#f7c948"/>
+
+  <!-- floating chat bubble -->
+  <g>
+    <path d="M 150 220 h 110 a 16 16 0 0 1 16 16 v 46 a 16 16 0 0 1 -16 16 h -70 l -24 22 v -22 h -16 a 16 16 0 0 1 -16 -16 v -46 a 16 16 0 0 1 16 -16 z" fill="#f7c948"/>
+    <circle cx="182" cy="264" r="6" fill="#0d2a52"/>
+    <circle cx="205" cy="264" r="6" fill="#0d2a52"/>
+    <circle cx="228" cy="264" r="6" fill="#0d2a52"/>
+  </g>
+</svg>
